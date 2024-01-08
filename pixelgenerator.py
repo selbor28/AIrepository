@@ -10,7 +10,7 @@ height = 8
 def random_pixel_generator(width, height):
     image = np.zeros((height, width))
     for i in range(height):
-<<<<<<< HEAD
+
         for j in range(width):        image[i, j] = int(torch.rand(1)*2)
     print(image)
     return image
