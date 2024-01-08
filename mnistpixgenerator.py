@@ -18,16 +18,3 @@ mnist_trainset = datasets.MNIST(root='./data', train=True, download=True, transf
 mnist_testset = datasets.MNIST(root='./data', train=False, download=True, transform=None)
 t2len = len(mnist_testset)
 
-
-# def random_pixel_generator(width, height):
-#    image = np.zeros((height, width))
-#    for i in range(height):
-#        for j in range(width):        image[i, j] = int(torch.rand(1)*2)
-#    print(image)
-#   return image
-#
-
-# t1 = torch.as_tensor(random_pixel_generator(width, height))
-
-
-
